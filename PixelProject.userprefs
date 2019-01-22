@@ -1,0 +1,26 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MenuTransition.cs">
+    <Files>
+      <File FileName="Assets\Scripts\PlayerShooting.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Walk.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerMotor.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FollowPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CameraField.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\NPCScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\NPCMove.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\NPCAttack.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Spawner.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AISpawn.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CarController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DogAttack.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TireToWheel.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CameraScript.cs" Line="13" Column="1" />
+      <File FileName="Assets\Scripts\MenuTransition.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
