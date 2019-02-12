@@ -14,14 +14,13 @@ public class DogAttack : MonoBehaviour {
 
 
 	void Start () {
+		//find targets
 		targets = GameObject.FindGameObjectsWithTag("Blood");
 		anim = GetComponentInChildren<Animator> ();
-
 	}
 	
 
 	void Update () {
-		
 		GameObject closest = null;
 		float distance = Mathf.Infinity;
 		Vector3 position = transform.position;
@@ -37,9 +36,9 @@ public class DogAttack : MonoBehaviour {
 			}
 		}
 			
-
 		FollowPlayer follow = GetComponent<FollowPlayer> ();
 		Vector3 enemyposition = enemy.transform.position;
+			//if G in clicked attack enemies within distance
 			if (Input.GetKey (KeyCode.G)) {
 				if (enemy) {
 					follow.isFollowing = false;
@@ -52,17 +51,14 @@ public class DogAttack : MonoBehaviour {
 					if (enemyHealth != null) {
 							enemyHealth.TakeDamage(enemyposition);
 					}
-					} else {
-						anim.SetBool ("attack", false);
-						myTransform.Translate (Vector3.forward * 8 * Time.deltaTime);
-						myTransform.LookAt (enemy);
-					}
-
-
+				} else {
+					anim.SetBool ("attack", false);
+					myTransform.Translate (Vector3.forward * 8 * Time.deltaTime);
+					myTransform.LookAt (enemy);
 				}
+
 			}
-
-
+		}
 	}
 }
 
